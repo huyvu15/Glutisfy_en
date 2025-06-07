@@ -475,7 +475,10 @@ export default function Page() {
                                                 </span>
                                             </div>
                                         </div>
-                                        <div data-oid="n0zng4k">
+                                        <div
+                                            className="flex flex-col justify-center"
+                                            data-oid="n0zng4k"
+                                        >
                                             <h4
                                                 className="font-bold text-xl text-white group-hover:text-blue-300 transition-colors duration-300"
                                                 data-oid="z2ccxcw"
