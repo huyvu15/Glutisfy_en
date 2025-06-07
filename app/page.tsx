@@ -467,7 +467,7 @@ export default function Page() {
                                                 {testimonial.avatar}
                                             </div>
                                             <div
-                                                className="absolute -bottom-1 -right-1 w-6 h-6 bg-green-500 rounded-full border-2 border-white flex items-center justify-center"
+                                                className="absolute -bottom-1 -right-5 w-6 h-6 bg-green-500 rounded-full border-2 border-white flex items-center justify-center left-[72px] top-[47px]"
                                                 data-oid="-j:jhhx"
                                             >
                                                 <span className="text-xs" data-oid="ne5493a">
