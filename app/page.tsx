@@ -459,18 +459,21 @@ export default function Page() {
                                         className="flex items-center relative z-10"
                                         data-oid="5evc:ey"
                                     >
-                                        <div className="relative" data-oid="9x6ub:o">
+                                        <div className="relative mr-4" data-oid="9x6ub:o">
                                             <div
-                                                className="w-16 h-16 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 rounded-full flex items-center justify-center text-2xl mr-4 shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all duration-300"
+                                                className="w-20 h-20 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 rounded-2xl flex items-center justify-center text-3xl shadow-2xl group-hover:shadow-blue-500/30 group-hover:scale-110 transition-all duration-300 border-2 border-white/20"
                                                 data-oid="2593_60"
                                             >
                                                 {testimonial.avatar}
                                             </div>
                                             <div
-                                                className="absolute -bottom-1 -right-5 w-6 h-6 bg-green-500 rounded-full border-2 border-white flex items-center justify-center left-[72px] top-[47px]"
+                                                className="absolute -top-2 -right-2 w-8 h-8 bg-gradient-to-br from-green-400 to-emerald-500 rounded-full border-3 border-white flex items-center justify-center shadow-lg"
                                                 data-oid="-j:jhhx"
                                             >
-                                                <span className="text-xs" data-oid="ne5493a">
+                                                <span
+                                                    className="text-white text-sm font-bold"
+                                                    data-oid="ne5493a"
+                                                >
                                                     ✓
                                                 </span>
                                             </div>
@@ -480,19 +483,19 @@ export default function Page() {
                                             data-oid="n0zng4k"
                                         >
                                             <h4
-                                                className="font-bold text-xl text-white group-hover:text-blue-300 transition-colors duration-300"
+                                                className="font-bold text-2xl text-white group-hover:text-blue-300 transition-colors duration-300 mb-1"
                                                 data-oid="z2ccxcw"
                                             >
                                                 {testimonial.name}
                                             </h4>
                                             <p
-                                                className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300 font-medium"
+                                                className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300 font-medium text-lg mb-2"
                                                 data-oid="5:k2e7s"
                                             >
                                                 {testimonial.role}
                                             </p>
                                             <div
-                                                className="flex items-center gap-2 mt-1"
+                                                className="inline-flex items-center gap-2 px-3 py-1 bg-gradient-to-r from-green-500/20 to-emerald-500/20 border border-green-400/30 rounded-full backdrop-blur-sm"
                                                 data-oid="n9.oz-d"
                                             >
                                                 <div
@@ -500,7 +503,7 @@ export default function Page() {
                                                     data-oid="u1ib9wu"
                                                 ></div>
                                                 <span
-                                                    className="text-xs text-green-400 font-medium"
+                                                    className="text-xs text-green-400 font-semibold uppercase tracking-wide"
                                                     data-oid="snj-pon"
                                                 >
                                                     Verified Customer
