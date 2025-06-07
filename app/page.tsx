@@ -88,6 +88,7 @@ export default function Page() {
                     className="absolute top-1/4 right-1/4 w-72 h-72 bg-purple-500/10 rounded-full blur-3xl animate-pulse delay-1000"
                     data-oid="nr79u_-"
                 />
+
                 <div
                     className="absolute bottom-1/4 left-1/4 w-80 h-80 bg-pink-500/10 rounded-full blur-3xl animate-pulse delay-2000"
                     data-oid="i.r9-hs"
@@ -361,44 +362,202 @@ export default function Page() {
                 </section>
 
                 {/* Testimonials */}
-                <section className="mb-24" data-oid="6ojs1jv">
-                    <h2 className="text-4xl font-bold text-center mb-16" data-oid="01u048l">
-                        Khách hàng nói gì về{' '}
-                        <span className="text-blue-400" data-oid="kbw_his">
-                            Glutisify
-                        </span>
-                    </h2>
-                    <div className="grid md:grid-cols-2 gap-8" data-oid="g-58_w6">
-                        {testimonials.map((testimonial, index) => (
+                <section className="mb-24 relative" data-oid="6ojs1jv">
+                    {/* Background decoration */}
+                    <div
+                        className="absolute inset-0 bg-gradient-to-r from-blue-500/5 via-purple-500/5 to-pink-500/5 rounded-3xl blur-3xl"
+                        data-oid="_mn6w3r"
+                    ></div>
+
+                    <div className="relative z-10" data-oid="m2zpii1">
+                        <div className="text-center mb-20" data-oid="6xx4nog">
                             <div
-                                key={index}
-                                className="bg-white/5 backdrop-blur-xl rounded-2xl p-8 border border-white/10 hover:border-white/20 transition-all duration-300 hover:bg-white/10"
-                                data-oid="a8:q9mm"
+                                className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-500/10 to-purple-500/10 border border-blue-500/20 rounded-full text-sm font-medium backdrop-blur-sm mb-6"
+                                data-oid="wzj.e6b"
                             >
-                                <div className="flex items-center mb-6" data-oid="5evc:ey">
+                                ⭐ Testimonials
+                            </div>
+                            <h2 className="text-5xl md:text-6xl font-bold mb-6" data-oid="01u048l">
+                                Khách hàng nói gì về{' '}
+                                <span
+                                    className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent"
+                                    data-oid="kbw_his"
+                                >
+                                    Glutisify
+                                </span>
+                            </h2>
+                            <p
+                                className="text-xl text-gray-400 max-w-3xl mx-auto"
+                                data-oid="-av4p5n"
+                            >
+                                Hàng nghìn doanh nghiệp tin tưởng và đạt được kết quả vượt trội với
+                                Glutisify
+                            </p>
+                        </div>
+
+                        <div
+                            className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto"
+                            data-oid="g-58_w6"
+                        >
+                            {testimonials.map((testimonial, index) => (
+                                <div
+                                    key={index}
+                                    className="group relative bg-gradient-to-br from-white/10 via-white/5 to-transparent backdrop-blur-2xl rounded-3xl p-8 border border-white/20 hover:border-white/40 transition-all duration-500 hover:bg-white/10 transform hover:-translate-y-2 hover:scale-[1.02] shadow-2xl hover:shadow-blue-500/10"
+                                    data-oid="a8:q9mm"
+                                >
+                                    {/* Decorative elements */}
                                     <div
-                                        className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-xl mr-4"
-                                        data-oid="2593_60"
+                                        className="absolute top-4 right-4 text-6xl text-blue-400/20 group-hover:text-blue-400/40 transition-colors duration-300"
+                                        data-oid="j7xo7jj"
                                     >
-                                        {testimonial.avatar}
+                                        "
                                     </div>
-                                    <div data-oid="n0zng4k">
-                                        <h4 className="font-bold text-lg" data-oid="z2ccxcw">
-                                            {testimonial.name}
-                                        </h4>
-                                        <p className="text-gray-400" data-oid="5:k2e7s">
-                                            {testimonial.role}
+                                    <div
+                                        className="absolute -top-2 -left-2 w-20 h-20 bg-gradient-to-br from-blue-500/20 to-purple-500/20 rounded-full blur-xl group-hover:scale-150 transition-transform duration-500"
+                                        data-oid="jvw4pxc"
+                                    ></div>
+
+                                    {/* Rating stars */}
+                                    <div className="flex gap-1 mb-6" data-oid="d.0ff.a">
+                                        {[...Array(5)].map((_, i) => (
+                                            <span
+                                                key={i}
+                                                className="text-yellow-400 text-lg"
+                                                data-oid="7bi560i"
+                                            >
+                                                ⭐
+                                            </span>
+                                        ))}
+                                    </div>
+
+                                    {/* Quote content */}
+                                    <div className="relative z-10 mb-8" data-oid="2oxi_cr">
+                                        <p
+                                            className="text-gray-200 leading-relaxed text-lg font-medium relative"
+                                            data-oid="h0ol1-q"
+                                        >
+                                            <span
+                                                className="text-blue-400 text-2xl absolute -left-2 -top-2"
+                                                data-oid="ingi39c"
+                                            >
+                                                "
+                                            </span>
+                                            <span className="ml-4" data-oid="fio02cq">
+                                                {testimonial.content}
+                                            </span>
+                                            <span
+                                                className="text-blue-400 text-2xl"
+                                                data-oid=":89gjme"
+                                            >
+                                                "
+                                            </span>
                                         </p>
                                     </div>
+
+                                    {/* Author info */}
+                                    <div
+                                        className="flex items-center relative z-10"
+                                        data-oid="5evc:ey"
+                                    >
+                                        <div className="relative" data-oid="9x6ub:o">
+                                            <div
+                                                className="w-16 h-16 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 rounded-full flex items-center justify-center text-2xl mr-4 shadow-lg group-hover:shadow-xl group-hover:scale-110 transition-all duration-300"
+                                                data-oid="2593_60"
+                                            >
+                                                {testimonial.avatar}
+                                            </div>
+                                            <div
+                                                className="absolute -bottom-1 -right-1 w-6 h-6 bg-green-500 rounded-full border-2 border-white flex items-center justify-center"
+                                                data-oid="-j:jhhx"
+                                            >
+                                                <span className="text-xs" data-oid="ne5493a">
+                                                    ✓
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div data-oid="n0zng4k">
+                                            <h4
+                                                className="font-bold text-xl text-white group-hover:text-blue-300 transition-colors duration-300"
+                                                data-oid="z2ccxcw"
+                                            >
+                                                {testimonial.name}
+                                            </h4>
+                                            <p
+                                                className="text-gray-400 group-hover:text-gray-300 transition-colors duration-300 font-medium"
+                                                data-oid="5:k2e7s"
+                                            >
+                                                {testimonial.role}
+                                            </p>
+                                            <div
+                                                className="flex items-center gap-2 mt-1"
+                                                data-oid="n9.oz-d"
+                                            >
+                                                <div
+                                                    className="w-2 h-2 bg-green-400 rounded-full animate-pulse"
+                                                    data-oid="u1ib9wu"
+                                                ></div>
+                                                <span
+                                                    className="text-xs text-green-400 font-medium"
+                                                    data-oid="snj-pon"
+                                                >
+                                                    Verified Customer
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    {/* Hover effect overlay */}
+                                    <div
+                                        className="absolute inset-0 bg-gradient-to-br from-blue-500/5 via-transparent to-purple-500/5 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 -left-[79px] -top-[27px]"
+                                        data-oid="uz9ftfr"
+                                    ></div>
                                 </div>
-                                <p
-                                    className="text-gray-300 leading-relaxed text-lg italic"
-                                    data-oid="dw0c-ze"
-                                >
-                                    "{testimonial.content}"
-                                </p>
+                            ))}
+                        </div>
+
+                        {/* Additional social proof */}
+                        <div className="mt-16 text-center" data-oid="q-8.nbq">
+                            <div
+                                className="inline-flex items-center gap-8 px-8 py-4 bg-white/5 backdrop-blur-xl rounded-2xl border border-white/10"
+                                data-oid=":-3i5tr"
+                            >
+                                <div className="text-center" data-oid=":tewmot">
+                                    <div
+                                        className="text-2xl font-bold text-blue-400"
+                                        data-oid="e9ylzf8"
+                                    >
+                                        4.9/5
+                                    </div>
+                                    <div className="text-sm text-gray-400" data-oid=".yt-rz2">
+                                        Rating
+                                    </div>
+                                </div>
+                                <div className="w-px h-8 bg-white/20" data-oid="wbhprwm"></div>
+                                <div className="text-center" data-oid="_2ezle7">
+                                    <div
+                                        className="text-2xl font-bold text-purple-400"
+                                        data-oid="zxxfj8z"
+                                    >
+                                        1000+
+                                    </div>
+                                    <div className="text-sm text-gray-400" data-oid="t3:6rcu">
+                                        Reviews
+                                    </div>
+                                </div>
+                                <div className="w-px h-8 bg-white/20" data-oid="evgoyam"></div>
+                                <div className="text-center" data-oid="9giiofh">
+                                    <div
+                                        className="text-2xl font-bold text-pink-400"
+                                        data-oid="fy7_3mt"
+                                    >
+                                        99%
+                                    </div>
+                                    <div className="text-sm text-gray-400" data-oid="rrpgei3">
+                                        Satisfaction
+                                    </div>
+                                </div>
                             </div>
-                        ))}
+                        </div>
                     </div>
                 </section>
 
