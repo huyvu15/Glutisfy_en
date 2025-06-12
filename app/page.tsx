@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 export default function Page() {
     const [isVisible, setIsVisible] = useState(false);
     const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+    const [showBackToTop, setShowBackToTop] = useState(false);
 
     useEffect(() => {
         setIsVisible(true);
@@ -13,9 +14,25 @@ export default function Page() {
             setMousePosition({ x: e.clientX, y: e.clientY });
         };
 
+        const handleScroll = () => {
+            setShowBackToTop(window.scrollY > 500);
+        };
+
         window.addEventListener('mousemove', handleMouseMove);
-        return () => window.removeEventListener('mousemove', handleMouseMove);
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('mousemove', handleMouseMove);
+            window.removeEventListener('scroll', handleScroll);
+        };
     }, []);
+
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth',
+        });
+    };
 
     const socialPlatforms = [
         { name: 'Facebook', icon: '📘', users: '2.9B', color: 'from-blue-500 to-blue-600' },
@@ -734,6 +751,34 @@ export default function Page() {
                     </div>
                 </div>
             </footer>
+
+            {/* Back to Top Button */}
+            <button
+                onClick={scrollToTop}
+                className={`fixed bottom-8 right-8 z-50 w-14 h-14 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full shadow-2xl hover:shadow-blue-500/25 transition-all duration-300 transform hover:scale-110 flex items-center justify-center group ${
+                    showBackToTop
+                        ? 'opacity-100 translate-y-0'
+                        : 'opacity-0 translate-y-4 pointer-events-none'
+                }`}
+                aria-label="Back to top"
+                data-oid="3w0ez7."
+            >
+                <svg
+                    className="w-6 h-6 text-white group-hover:scale-110 transition-transform duration-300"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    data-oid="ypp:84q"
+                >
+                    <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M5 10l7-7m0 0l7 7m-7-7v18"
+                        data-oid="vi-5oh0"
+                    />
+                </svg>
+            </button>
         </div>
     );
 }
