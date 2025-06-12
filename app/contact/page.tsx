@@ -92,110 +92,110 @@ export default function ContactPage() {
     return (
         <div
             className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white relative overflow-hidden"
-            data-oid=":wdj:co"
+            data-oid="3h8ejdp"
         >
             {/* Animated Background */}
-            <div className="absolute inset-0 overflow-hidden" data-oid="xd4lc52">
+            <div className="absolute inset-0 overflow-hidden" data-oid="h:ilqm1">
                 <div
                     className="absolute top-1/4 right-1/4 w-72 h-72 bg-purple-500/10 rounded-full blur-3xl animate-pulse delay-1000"
-                    data-oid="c-xjr:f"
+                    data-oid="jn537:r"
                 />
 
                 <div
                     className="absolute bottom-1/4 left-1/4 w-80 h-80 bg-pink-500/10 rounded-full blur-3xl animate-pulse delay-2000"
-                    data-oid="11t_v2i"
+                    data-oid="py_hpsb"
                 />
             </div>
 
             {/* Navigation */}
             <nav
                 className="relative z-50 py-6 px-8 flex justify-between items-center backdrop-blur-xl bg-white/5 border-b border-white/10 shadow-2xl"
-                data-oid="v.lvc:k"
+                data-oid="d3qhwoc"
             >
                 <Link
                     href="/"
                     className="text-3xl font-bold bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent"
-                    data-oid="f..p9gw"
+                    data-oid="25lhvj."
                 >
                     Glutisify
                 </Link>
-                <div className="hidden md:flex space-x-8" data-oid="1s9wndx">
-                    <Link href="/#features" className="relative group" data-oid="efqmwrs">
+                <div className="hidden md:flex space-x-8" data-oid="nxfq96e">
+                    <Link href="/#features" className="relative group" data-oid="due2qu4">
                         <span
                             className="hover:text-blue-400 transition-all duration-300"
-                            data-oid="--tbk77"
+                            data-oid="-jtt3hm"
                         >
                             Tính năng
                         </span>
                         <div
                             className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-400 to-purple-400 group-hover:w-full transition-all duration-300"
-                            data-oid=".h5xflo"
+                            data-oid="c:hgrvv"
                         />
                     </Link>
-                    <Link href="/pricing" className="relative group" data-oid="4kin8-o">
+                    <Link href="/pricing" className="relative group" data-oid="veyl7xt">
                         <span
                             className="hover:text-blue-400 transition-all duration-300"
-                            data-oid="1eu.e-d"
+                            data-oid="9zqfgg1"
                         >
                             Giá cả
                         </span>
                         <div
                             className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-400 to-purple-400 group-hover:w-full transition-all duration-300"
-                            data-oid="lc7-..t"
+                            data-oid="mqd0cex"
                         />
                     </Link>
-                    <Link href="/contact" className="relative group" data-oid="cee9roh">
+                    <Link href="/contact" className="relative group" data-oid="1k9c2eb">
                         <span
                             className="text-blue-400 transition-all duration-300"
-                            data-oid="nqrsl.k"
+                            data-oid="b_h6x7u"
                         >
                             Liên hệ
                         </span>
                         <div
                             className="absolute -bottom-1 left-0 w-full h-0.5 bg-gradient-to-r from-blue-400 to-purple-400"
-                            data-oid="hm80q48"
+                            data-oid="72lw:wd"
                         />
                     </Link>
                 </div>
                 <Link
                     href="/contact"
                     className="px-8 py-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full hover:from-blue-600 hover:to-purple-700 transition-all transform hover:scale-105 shadow-lg hover:shadow-xl font-semibold"
-                    data-oid="4kxczkh"
+                    data-oid="sx7hgmv"
                 >
                     Dùng thử miễn phí
                 </Link>
             </nav>
 
             {/* Main Content */}
-            <main className="relative z-10 max-w-7xl mx-auto px-8 py-20" data-oid="q35sv9f">
+            <main className="relative z-10 max-w-7xl mx-auto px-8 py-20" data-oid="g299m4n">
                 {/* Header */}
                 <div
                     className={`text-center mb-16 transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
-                    data-oid="ovhq16d"
+                    data-oid="tt5k59:"
                 >
-                    <div className="mb-6" data-oid="2796-uz">
+                    <div className="mb-6" data-oid="-1bl30a">
                         <span
                             className="px-4 py-2 bg-gradient-to-r from-blue-500/20 to-purple-500/20 border border-blue-500/30 rounded-full text-sm font-medium backdrop-blur-sm"
-                            data-oid="xmqpz18"
+                            data-oid="54fz7am"
                         >
                             📞 Liên hệ
                         </span>
                     </div>
                     <h1
                         className="text-5xl md:text-7xl font-bold leading-tight mb-8 bg-gradient-to-r from-white via-blue-100 to-purple-100 bg-clip-text text-transparent"
-                        data-oid="xk8puxd"
+                        data-oid="1bfpjfp"
                     >
                         Hãy để chúng tôi{' '}
                         <span
                             className="bg-gradient-to-r from-blue-400 via-purple-400 to-pink-400 bg-clip-text text-transparent"
-                            data-oid="ffl67t8"
+                            data-oid="879d46-"
                         >
                             hỗ trợ bạn
                         </span>
                     </h1>
                     <p
                         className="text-xl text-gray-300 max-w-3xl mx-auto mb-12 leading-relaxed"
-                        data-oid="edv1kyf"
+                        data-oid="8qxu.4x"
                     >
                         Đội ngũ chuyên gia của chúng tôi sẵn sàng tư vấn và hỗ trợ bạn tìm ra giải
                         pháp tốt nhất
@@ -203,33 +203,33 @@ export default function ContactPage() {
                 </div>
 
                 {/* Contact Info Cards */}
-                <div className="grid md:grid-cols-4 gap-6 mb-16" data-oid="o928kgs">
+                <div className="grid md:grid-cols-4 gap-6 mb-16" data-oid="-ufyw78">
                     {contactInfo.map((info, index) => (
                         <div
                             key={index}
                             className={`group bg-gradient-to-br from-white/10 via-white/5 to-transparent backdrop-blur-2xl rounded-3xl p-6 border border-white/20 hover:border-white/40 transition-all duration-500 hover:bg-white/10 transform hover:-translate-y-2 shadow-2xl ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
                             style={{ transitionDelay: `${index * 150}ms` }}
-                            data-oid="-mar9me"
+                            data-oid="o58t78f"
                         >
                             <div
                                 className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300"
-                                data-oid="162a7.u"
+                                data-oid="9gajsmq"
                             >
                                 {info.icon}
                             </div>
                             <h3
                                 className="text-xl font-bold mb-2 group-hover:text-blue-400 transition-colors"
-                                data-oid="pfntkk1"
+                                data-oid=".0lmywg"
                             >
                                 {info.title}
                             </h3>
                             <p
                                 className="text-lg font-medium mb-2 text-blue-300"
-                                data-oid=":ajw08y"
+                                data-oid="1vekuci"
                             >
                                 {info.content}
                             </p>
-                            <p className="text-sm text-gray-400" data-oid="_k-hzh-">
+                            <p className="text-sm text-gray-400" data-oid="yxfifk4">
                                 {info.description}
                             </p>
                         </div>
@@ -237,21 +237,21 @@ export default function ContactPage() {
                 </div>
 
                 {/* Contact Form and Team */}
-                <div className="grid lg:grid-cols-2 gap-12 mb-16" data-oid="089-kow">
+                <div className="grid lg:grid-cols-2 gap-12 mb-16" data-oid="9ltqkv1">
                     {/* Contact Form */}
                     <div
                         className="bg-gradient-to-br from-white/10 via-white/5 to-transparent backdrop-blur-2xl rounded-3xl p-8 border border-white/20 shadow-2xl"
-                        data-oid="0771wlv"
+                        data-oid="q58kkrv"
                     >
-                        <h2 className="text-3xl font-bold mb-6 text-center" data-oid="ys_c6xy">
+                        <h2 className="text-3xl font-bold mb-6 text-center" data-oid="p.rnglp">
                             Gửi tin nhắn cho chúng tôi
                         </h2>
-                        <form onSubmit={handleSubmit} className="space-y-6" data-oid="modclkx">
-                            <div className="grid md:grid-cols-2 gap-4" data-oid="f4p1.cw">
-                                <div data-oid="zeuw-s.">
+                        <form onSubmit={handleSubmit} className="space-y-6" data-oid="w3.tqzu">
+                            <div className="grid md:grid-cols-2 gap-4" data-oid=".y_isqk">
+                                <div data-oid=".qfeekn">
                                     <label
                                         className="block text-sm font-medium mb-2"
-                                        data-oid="e00akr8"
+                                        data-oid="axctr3h"
                                     >
                                         Họ và tên *
                                     </label>
@@ -263,13 +263,13 @@ export default function ContactPage() {
                                         required
                                         className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl focus:border-blue-400 focus:outline-none transition-colors backdrop-blur-sm"
                                         placeholder="Nhập họ và tên"
-                                        data-oid="yh27pm."
+                                        data-oid="xodmzc:"
                                     />
                                 </div>
-                                <div data-oid=".bss5hu">
+                                <div data-oid="wu.nbp7">
                                     <label
                                         className="block text-sm font-medium mb-2"
-                                        data-oid="a9.3.2e"
+                                        data-oid="qb89ul:"
                                     >
                                         Email *
                                     </label>
@@ -281,16 +281,16 @@ export default function ContactPage() {
                                         required
                                         className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl focus:border-blue-400 focus:outline-none transition-colors backdrop-blur-sm"
                                         placeholder="your@email.com"
-                                        data-oid="fmk:pau"
+                                        data-oid="tgy3_9r"
                                     />
                                 </div>
                             </div>
 
-                            <div className="grid md:grid-cols-2 gap-4" data-oid="z06m8o:">
-                                <div data-oid="48u7bm_">
+                            <div className="grid md:grid-cols-2 gap-4" data-oid="yndx3fs">
+                                <div data-oid="n1g9:4x">
                                     <label
                                         className="block text-sm font-medium mb-2"
-                                        data-oid="y73m-a3"
+                                        data-oid="fbat3nv"
                                     >
                                         Công ty
                                     </label>
@@ -301,13 +301,13 @@ export default function ContactPage() {
                                         onChange={handleInputChange}
                                         className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl focus:border-blue-400 focus:outline-none transition-colors backdrop-blur-sm"
                                         placeholder="Tên công ty"
-                                        data-oid="fvmwvv3"
+                                        data-oid="by-.g7r"
                                     />
                                 </div>
-                                <div data-oid="uqy6hkt">
+                                <div data-oid="u_v0m03">
                                     <label
                                         className="block text-sm font-medium mb-2"
-                                        data-oid=".d:kpyo"
+                                        data-oid="sp1uv0m"
                                     >
                                         Số điện thoại
                                     </label>
@@ -318,15 +318,15 @@ export default function ContactPage() {
                                         onChange={handleInputChange}
                                         className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl focus:border-blue-400 focus:outline-none transition-colors backdrop-blur-sm"
                                         placeholder="+84 xxx xxx xxx"
-                                        data-oid="v_1:zvz"
+                                        data-oid=".:_m778"
                                     />
                                 </div>
                             </div>
 
-                            <div data-oid="0th_zg-">
+                            <div data-oid="xjlw0z7">
                                 <label
                                     className="block text-sm font-medium mb-2"
-                                    data-oid="w9w7ap."
+                                    data-oid="c2fvb:a"
                                 >
                                     Gói dịch vụ quan tâm
                                 </label>
@@ -335,27 +335,27 @@ export default function ContactPage() {
                                     value={formData.service}
                                     onChange={handleInputChange}
                                     className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl focus:border-blue-400 focus:outline-none transition-colors backdrop-blur-sm"
-                                    data-oid="ule91ej"
+                                    data-oid="f8b3v.t"
                                 >
-                                    <option value="starter" data-oid="dz.sb-j">
+                                    <option value="starter" data-oid="u2k4afh">
                                         Starter
                                     </option>
-                                    <option value="professional" data-oid="t.hu4na">
+                                    <option value="professional" data-oid="ozbzgqm">
                                         Professional
                                     </option>
-                                    <option value="enterprise" data-oid="jmrcta0">
+                                    <option value="enterprise" data-oid="unc2rrc">
                                         Enterprise
                                     </option>
-                                    <option value="custom" data-oid="9ix0z9y">
+                                    <option value="custom" data-oid="znhgmud">
                                         Giải pháp tùy chỉnh
                                     </option>
                                 </select>
                             </div>
 
-                            <div data-oid="a_oknoh">
+                            <div data-oid=".5:ksrs">
                                 <label
                                     className="block text-sm font-medium mb-2"
-                                    data-oid="iu53pw_"
+                                    data-oid="vaiy5an"
                                 >
                                     Tin nhắn *
                                 </label>
@@ -367,14 +367,14 @@ export default function ContactPage() {
                                     rows={5}
                                     className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-xl focus:border-blue-400 focus:outline-none transition-colors backdrop-blur-sm resize-none"
                                     placeholder="Mô tả nhu cầu của bạn..."
-                                    data-oid="ei:v5fs"
+                                    data-oid=".ufogjp"
                                 />
                             </div>
 
                             <button
                                 type="submit"
                                 className="w-full py-4 bg-gradient-to-r from-blue-500 to-purple-600 rounded-xl text-lg font-semibold hover:from-blue-600 hover:to-purple-700 transition-all transform hover:scale-[1.02] shadow-lg hover:shadow-blue-500/25"
-                                data-oid="y7t7ksi"
+                                data-oid="7pl2vy3"
                             >
                                 Gửi tin nhắn
                             </button>
@@ -382,42 +382,42 @@ export default function ContactPage() {
                     </div>
 
                     {/* Team Section */}
-                    <div className="space-y-8" data-oid="mbebfwa">
-                        <div className="text-center" data-oid="n6e8fpz">
-                            <h2 className="text-3xl font-bold mb-4" data-oid=":nuemyv">
+                    <div className="space-y-8" data-oid="b:9g2yy">
+                        <div className="text-center" data-oid="l7u6_9u">
+                            <h2 className="text-3xl font-bold mb-4" data-oid="p2s.aq8">
                                 Đội ngũ của chúng tôi
                             </h2>
-                            <p className="text-gray-400" data-oid="_9hpw_-">
+                            <p className="text-gray-400" data-oid="-vrc:ku">
                                 Gặp gỡ những người sẽ hỗ trợ bạn
                             </p>
                         </div>
 
-                        <div className="grid grid-cols-2 gap-4" data-oid="lh9e0wr">
+                        <div className="grid grid-cols-2 gap-4" data-oid="hik_.df">
                             {teamMembers.map((member, index) => (
                                 <div
                                     key={index}
                                     className="group bg-gradient-to-br from-white/10 via-white/5 to-transparent backdrop-blur-2xl rounded-2xl p-6 border border-white/20 hover:border-white/40 transition-all duration-500 hover:bg-white/10 transform hover:-translate-y-1 shadow-xl text-center"
-                                    data-oid="ef20rnk"
+                                    data-oid="0h86ht3"
                                 >
                                     <div
                                         className="text-4xl mb-3 group-hover:scale-110 transition-transform duration-300"
-                                        data-oid="vudb4cb"
+                                        data-oid="76k5ktm"
                                     >
                                         {member.avatar}
                                     </div>
                                     <h3
                                         className="font-bold text-lg mb-1 group-hover:text-blue-400 transition-colors"
-                                        data-oid=".kf1k9y"
+                                        data-oid="sbcd2.k"
                                     >
                                         {member.name}
                                     </h3>
-                                    <p className="text-sm text-gray-400 mb-2" data-oid="ri24t5v">
+                                    <p className="text-sm text-gray-400 mb-2" data-oid="da1e6:p">
                                         {member.role}
                                     </p>
                                     <a
                                         href={`mailto:${member.email}`}
                                         className="text-xs text-blue-400 hover:text-blue-300 transition-colors"
-                                        data-oid="-ryt40s"
+                                        data-oid="t0bwa.:"
                                     >
                                         {member.email}
                                     </a>
@@ -428,27 +428,27 @@ export default function ContactPage() {
                         {/* Office Hours */}
                         <div
                             className="bg-gradient-to-r from-blue-500/10 to-purple-500/10 backdrop-blur-xl rounded-2xl p-6 border border-white/20"
-                            data-oid="3mvbr9t"
+                            data-oid="znxq7oi"
                         >
-                            <h3 className="text-xl font-bold mb-4 text-center" data-oid="p:m8m-y">
+                            <h3 className="text-xl font-bold mb-4 text-center" data-oid="k.pwro:">
                                 Giờ làm việc
                             </h3>
-                            <div className="space-y-2 text-center" data-oid="jqm8qzz">
-                                <div className="flex justify-between" data-oid=":s9wwcm">
-                                    <span data-oid="6bi6l2j">Thứ 2 - Thứ 6:</span>
-                                    <span className="text-blue-400" data-oid="ys-01e3">
+                            <div className="space-y-2 text-center" data-oid="3p-4d-f">
+                                <div className="flex justify-between" data-oid="3mrk2ia">
+                                    <span data-oid="21bb-mi">Thứ 2 - Thứ 6:</span>
+                                    <span className="text-blue-400" data-oid="auo__b.">
                                         9:00 - 18:00
                                     </span>
                                 </div>
-                                <div className="flex justify-between" data-oid="ewro4ld">
-                                    <span data-oid="x7kebkj">Thứ 7:</span>
-                                    <span className="text-blue-400" data-oid="7im6hd9">
+                                <div className="flex justify-between" data-oid="8l5606i">
+                                    <span data-oid="e.nn223">Thứ 7:</span>
+                                    <span className="text-blue-400" data-oid="vk.u17r">
                                         9:00 - 12:00
                                     </span>
                                 </div>
-                                <div className="flex justify-between" data-oid="3hmg8cw">
-                                    <span data-oid="ucm-wxm">Chủ nhật:</span>
-                                    <span className="text-gray-400" data-oid="730qm:n">
+                                <div className="flex justify-between" data-oid="9dutg7z">
+                                    <span data-oid="_4i2stb">Chủ nhật:</span>
+                                    <span className="text-gray-400" data-oid="6k5d.ao">
                                         Nghỉ
                                     </span>
                                 </div>
@@ -460,65 +460,65 @@ export default function ContactPage() {
                 {/* FAQ Section */}
                 <section
                     className="bg-gradient-to-r from-white/5 to-white/10 backdrop-blur-xl rounded-3xl p-12 border border-white/20 shadow-2xl mb-16"
-                    data-oid="eilyvzk"
+                    data-oid="42mhxoa"
                 >
-                    <div className="text-center mb-12" data-oid="bq8yugq">
-                        <h2 className="text-4xl font-bold mb-4" data-oid="0iy18so">
+                    <div className="text-center mb-12" data-oid="5u_bd:g">
+                        <h2 className="text-4xl font-bold mb-4" data-oid="fa.pr57">
                             Câu hỏi thường gặp
                         </h2>
-                        <p className="text-xl text-gray-400" data-oid="mgyo6y2">
+                        <p className="text-xl text-gray-400" data-oid="ap6z9lz">
                             Những thắc mắc phổ biến về dịch vụ hỗ trợ
                         </p>
                     </div>
 
-                    <div className="grid md:grid-cols-2 gap-8" data-oid="zpsva2h">
-                        <div className="space-y-6" data-oid="z1a_2jm">
-                            <div data-oid="ndytpa0">
+                    <div className="grid md:grid-cols-2 gap-8" data-oid="-axu0--">
+                        <div className="space-y-6" data-oid="lzjtjdg">
+                            <div data-oid="xrl4i-c">
                                 <h3
                                     className="text-xl font-bold mb-3 text-blue-400"
-                                    data-oid="ctupu8v"
+                                    data-oid="j7r1:le"
                                 >
                                     Thời gian phản hồi là bao lâu?
                                 </h3>
-                                <p className="text-gray-300" data-oid="j0o8rf_">
+                                <p className="text-gray-300" data-oid="7dwq8st">
                                     Chúng tôi cam kết phản hồi trong vòng 24 giờ cho email và 2 giờ
                                     cho live chat.
                                 </p>
                             </div>
-                            <div data-oid="z9myous">
+                            <div data-oid="ys_4ek0">
                                 <h3
                                     className="text-xl font-bold mb-3 text-purple-400"
-                                    data-oid="0cnm0oc"
+                                    data-oid="k2smz.s"
                                 >
                                     Có hỗ trợ tiếng Việt không?
                                 </h3>
-                                <p className="text-gray-300" data-oid="jkvcwyf">
+                                <p className="text-gray-300" data-oid="y:66nkz">
                                     Có, toàn bộ đội ngũ hỗ trợ của chúng tôi đều thành thạo tiếng
                                     Việt.
                                 </p>
                             </div>
                         </div>
-                        <div className="space-y-6" data-oid="y8lw99r">
-                            <div data-oid="yfdisio">
+                        <div className="space-y-6" data-oid=":xt81pv">
+                            <div data-oid="pt_3.1x">
                                 <h3
                                     className="text-xl font-bold mb-3 text-pink-400"
-                                    data-oid="qot:76r"
+                                    data-oid="z8m:m5_"
                                 >
                                     Có hỗ trợ setup ban đầu không?
                                 </h3>
-                                <p className="text-gray-300" data-oid="sv9huor">
+                                <p className="text-gray-300" data-oid="u80jqn_">
                                     Có, chúng tôi cung cấp hỗ trợ setup miễn phí cho tất cả khách
                                     hàng mới.
                                 </p>
                             </div>
-                            <div data-oid="z63o1sc">
+                            <div data-oid="t8y74gr">
                                 <h3
                                     className="text-xl font-bold mb-3 text-green-400"
-                                    data-oid="x98767f"
+                                    data-oid="tv9guv."
                                 >
                                     Có training cho nhân viên không?
                                 </h3>
-                                <p className="text-gray-300" data-oid="-eiu3ub">
+                                <p className="text-gray-300" data-oid="f:rd.-r">
                                     Có, chúng tôi cung cấp training online và onsite cho gói
                                     Enterprise.
                                 </p>
@@ -530,29 +530,29 @@ export default function ContactPage() {
                 {/* CTA Section */}
                 <section
                     className="text-center bg-gradient-to-r from-blue-500/10 to-purple-500/10 backdrop-blur-xl rounded-3xl p-16 border border-white/20"
-                    data-oid="6z.5nqv"
+                    data-oid="0_aoauo"
                 >
-                    <h2 className="text-4xl font-bold mb-6" data-oid="178_vqg">
+                    <h2 className="text-4xl font-bold mb-6" data-oid="tcdu7n-">
                         Sẵn sàng bắt đầu?
                     </h2>
                     <p
                         className="text-xl text-gray-300 mb-10 max-w-3xl mx-auto leading-relaxed"
-                        data-oid="mxfdjqz"
+                        data-oid="k7x01wc"
                     >
                         Đừng chần chừ, hãy liên hệ với chúng tôi ngay hôm nay để được tư vấn miễn
                         phí
                     </p>
                     <div
                         className="flex flex-col sm:flex-row gap-6 justify-center"
-                        data-oid="1aw7_4f"
+                        data-oid="nbab:co"
                     >
                         <button
                             className="group px-10 py-4 bg-gradient-to-r from-blue-500 to-purple-600 rounded-full text-lg font-semibold hover:from-blue-600 hover:to-purple-700 transition-all transform hover:scale-105 shadow-2xl hover:shadow-blue-500/25"
-                            data-oid="4tdstq2"
+                            data-oid="e._f5ct"
                         >
                             <span
                                 className="flex items-center justify-center gap-2"
-                                data-oid="62pwzdh"
+                                data-oid="g8vuywr"
                             >
                                 🚀 Dùng thử 14 ngày miễn phí
                             </span>
@@ -560,7 +560,7 @@ export default function ContactPage() {
                         <Link
                             href="/pricing"
                             className="px-10 py-4 border-2 border-white/20 rounded-full text-lg font-semibold hover:bg-white/10 transition-all backdrop-blur-sm hover:border-white/40"
-                            data-oid="-2t1wen"
+                            data-oid="za9lo_v"
                         >
                             💰 Xem bảng giá
                         </Link>

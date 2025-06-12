@@ -107,7 +107,7 @@ export default function Page() {
                     Glutisify
                 </div>
                 <div className="hidden md:flex space-x-8" data-oid="5:fyv17">
-                    <a href="#features" className="relative group" data-oid="7unbymx">
+                    <a href="/dashboard" className="relative group" data-oid="7unbymx">
                         <span
                             className="hover:text-blue-400 transition-all duration-300"
                             data-oid="4ceh9m2"
@@ -119,7 +119,7 @@ export default function Page() {
                             data-oid="szwrf.p"
                         />
                     </a>
-                    <a href="#pricing" className="relative group" data-oid="yv3uw::">
+                    <a href="/pricing" className="relative group" data-oid="yv3uw::">
                         <span
                             className="hover:text-blue-400 transition-all duration-300"
                             data-oid="sk:dw0z"
@@ -131,7 +131,7 @@ export default function Page() {
                             data-oid="37_ie:l"
                         />
                     </a>
-                    <a href="#contact" className="relative group" data-oid="p-4jwg5">
+                    <a href="/contact" className="relative group" data-oid="p-4jwg5">
                         <span
                             className="hover:text-blue-400 transition-all duration-300"
                             data-oid="3i2-32b"
